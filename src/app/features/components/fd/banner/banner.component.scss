@@ -1,18 +1,96 @@
-.banner{
+.banner {
     height: 100vh;
     overflow: hidden;
-    .slide_image{
-        width: 100%;
-        height: 100%;
+
+    .slider_box {
         position: relative;
-        &:after{
-            content: "";
+        height: 100%;
+
+        .slide_image {
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        .slideText {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.4);
+            z-index: 1;
+
+            .container {
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                height: 100%;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 4.6rem;
+                color: #fff;
+                font-weight: 700;
+                margin-bottom: 1.5rem !important;
+            }
+
+            p {
+                color: #fff;
+                opacity: 0.7;
+                max-width: 700px;
+            }
+        }
+    }
+}
+
+.slideText {
+    .container {
+        a {
+            display: inline-block;
+            padding: 0.9rem 2rem;
+            border-radius: 0.4rem;
+            margin-top: 3.5rem;
+        }
+
+        a:nth-of-type(1) {
+            border-radius: 2rem;
+            margin-right: 2rem;
+        }
+
+        a:nth-of-type(2) {
+            border-radius: 2rem;
+            position: relative;
+            padding-left: 5.5rem;
+            color: #fff;
+
+            &:after {
+                content: "\f04b";
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-family: FontAwesome;
+                width: 4.2rem;
+                height: 4.2rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 2rem;
+            }
         }
     }
 }

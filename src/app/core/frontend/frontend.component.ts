@@ -1,10 +1,11 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-frontend',
   templateUrl: './frontend.component.html',
-  styleUrls: ['./frontend.component.scss']
+  styleUrls: ['./frontend.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class FrontendComponent implements OnInit {
 

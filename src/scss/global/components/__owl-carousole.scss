@@ -16,20 +16,3 @@
         left: 0;
     }
 }
-
-
-
-.frontend{
-    .big_square_nav{
-        .owl-nav{
-            margin: 0 !important;
-            [class*=owl-]{
-                width: 20px !important;
-                height: 20px !important;
-                color: transparent !important;
-                margin: 0 !important;
-                padding: 0 !important;
-            }
-        }
-    }
-}
