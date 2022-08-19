@@ -1,6 +1,7 @@
 .banner {
     height: 100vh;
     overflow: hidden;
+    max-height: 1000px;
 
     .slider_box {
         position: relative;
@@ -55,6 +56,12 @@
                 max-width: 700px;
             }
         }
+    }
+
+    .container-fluid{
+        max-width: 1600px;
+        margin: 0 auto;
+        position: relative;
     }
 }
 

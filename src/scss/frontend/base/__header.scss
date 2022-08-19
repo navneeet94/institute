@@ -1,0 +1,27 @@
+header { 
+    .nav-link {
+        &.opt_1{
+            &:hover{
+                background-color: $theme-color !important;
+            }
+        }
+    }
+
+    .dropdown-menu {
+        border: 2px solid $theme-color;
+        .dropdown-item{
+            &:hover{
+                background-color: $third-color !important;
+                color: #fff;
+            }
+        }
+    }
+
+    .btn_search{
+        &:hover{
+            background-color: $theme-color !important;
+            color: #fff;
+            border-color: goldenrod !important;
+        }
+    }
+}

@@ -8,3 +8,11 @@ html , body{
 body{
     font-size: 1.6rem;
 }
+
+a , button{
+text-decoration: none !important;
+transition:  all 400ms ease-in;
+&:after{
+    transition:  all 400ms ease-in;
+}
+}

@@ -6,10 +6,19 @@
                 background-color: $theme-color;
                 color: #fff;
                 margin-right: 1rem;
+                &:hover{
+                    background-color: $third-color;
+                }
             }
             a:nth-of-type(2){
                 &:after{
                     background-color: $third-color;
+                }
+
+                &:hover{
+                    &:after{
+                        background-color: $theme-color !important;
+                    }
                 }
             }
         }
