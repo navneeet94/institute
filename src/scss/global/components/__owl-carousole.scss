@@ -1,0 +1,35 @@
+.owl_slide_full{
+    .owl-carousel , .owl-stage-outer, .owl-stage{
+        height: 100vh;
+    }
+
+    &.owl_item_full{
+        .owl-item{
+            height: 100vh;
+        }
+    }
+
+    
+    .owl-nav {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+
+.frontend{
+    .big_square_nav{
+        .owl-nav{
+            margin: 0 !important;
+            [class*=owl-]{
+                width: 20px !important;
+                height: 20px !important;
+                color: transparent !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}
