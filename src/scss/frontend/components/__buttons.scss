@@ -1,6 +1,15 @@
 .btn{
     &.btn-primary{
+        background-color: $theme-color;
+        border-color: $theme-color;
+    }
+    &.btn-secondary{
         background-color: $third-color;
         border-color: $third-color;
+        &:hover{
+            background-color: $theme-color !important;
+            border-color: $theme-color;
+            opacity: 0.8;
+        }
     }
 }
