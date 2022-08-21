@@ -9,6 +9,7 @@ import { FooterComponent } from 'src/app/features/components/fd/footer/footer.co
 import { BannerComponent } from 'src/app/features/components/fd/banner/banner.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CounterComponent } from 'src/app/features/components/fd/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
+    CounterComponent
   ],
   imports: [
     CommonModule,

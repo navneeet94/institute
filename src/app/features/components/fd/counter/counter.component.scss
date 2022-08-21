@@ -1,0 +1,19 @@
+.counter {
+    background-color: #efefef;
+    padding: 4rem 0;
+    span {
+        font-size: 20px;
+    }
+    strong{
+        font-size: 14px;
+    }
+
+    .border_like {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background: #e9c6c6;
+    }
+}
